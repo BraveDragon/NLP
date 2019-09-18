@@ -21,7 +21,7 @@ MeCabSample1.py：MeCabを利用してtextの文字列内にweather_set内の単
 
 TextClassify_Simple.py：textのカテゴリが「天気」と「ナビゲーション」のどちらに属するかを判定するサンプルです。
 
-main.py、nlp_tasks.py：「livedoorニュースコーパス」を利用してニュース記事のカテゴリ分類を行うサンプルです。
+main.py、nlp_tasks.py：「livedoorニュースコーパス」を利用してニュース記事のカテゴリ分類を行うサンプルです。プログラムをGitHubに上げる前にデータセット内に含まれていたニュース記事で検証し、正しく分類できることを確認しました。実行の時はclassifier = MyMLPClassifier()とclassifier.cross_validation('corpus.csv')をコメントアウトし、#predict()のコメントを外してください。
 
 「livedoorニュースコーパス」のURL：http://www.rondhuit.com/download.html#ldcc
 
