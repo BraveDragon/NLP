@@ -17,7 +17,7 @@ https://taku910.github.io/mecab/#download
 また、「main.py」と「nlp_tasks.py」の実行にはMeCabに加えて「numpy」、「scikit-learn」、「pandas」ライブラリが必要です。
 導入されていない方は別途導入してください。
 
-＜内容＞
+## ＜内容＞
 
 - MeCabSample1.py：MeCabを利用してtextの文字列内にweather_set内の単語と一致する単語が存在した場合、その単語を出力するサンプルです。
 
